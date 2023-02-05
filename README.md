@@ -37,6 +37,13 @@ Après les build, il faut tagger les images et les envoyer dans le docker hub
 
 
 
+# Déploiement des services
+
+
+![image](https://user-images.githubusercontent.com/78741748/216826788-836d890e-7ca4-4757-b143-bde63c7c5a4e.png)
+
+
+
 # 3. Vérification de l'accès à l'application depuis l'extérieur
 
 
