@@ -11,8 +11,8 @@ Le dossier "terraform" contient les fichiers utilisés pour le déploiement du c
 
 - création d'un VPC dédié dans le Cloud
     - Le nom du VPC sera comme tel : <Nom_du_projet_Google>-<Votre_prenom>
-    - Création d'un sous réseaux dédié dans ce VPC dont la plage d'adressage du sous réseaux est : "10.10.0.0/24"
-    - Le nom du sous réseaux sera : <Nom_du_projet_Google>-<Votre_prenom>-subnet
+    - Le sous réseaux dédié dans ce VPC dont la plage d'adressage du sous réseaux est : "10.10.0.0/24"
+    - Le nom du sous réseaux sera : arouna-gke-subnetwork
     
     ![image](https://user-images.githubusercontent.com/78741748/216840154-b016c767-83cd-4d16-a659-8e853fe0adbf.png)
 
@@ -29,6 +29,12 @@ Type d'instance Google : "e2-standard-2"
 # Déploiement des noeuds sur GCP
 
 ![image](https://user-images.githubusercontent.com/78741748/216820168-e101544b-c4fa-416b-b32b-d8a6180925c1.png)
+
+
+![image](https://user-images.githubusercontent.com/78741748/216840302-8d825dc9-c8af-4264-8d1f-945fe2e8ed78.png)
+
+
+![image](https://user-images.githubusercontent.com/78741748/216840320-5e18c4fe-1145-4fdc-a08d-52acfbe80ecd.png)
 
 
 
