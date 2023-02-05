@@ -47,7 +47,7 @@ Après les build, il faut tagger les images et les envoyer dans le docker hub
 # 3. Vérification de l'accès à l'application depuis l'extérieur
 
 
-Expoer les services vote et result à l'exterieur
+Exposer les services vote et result à l'exterieur
 
 
 
@@ -77,6 +77,9 @@ Télécharger et appliquer le fichier d'installation d'ArgoCD
 
 Vérification de l'état des pods
 > kubectl get all -n argocd
+
+
+![image](https://user-images.githubusercontent.com/78741748/216827930-80156dc3-be11-4a41-8be7-d9bc09366352.png)
 
 
 
