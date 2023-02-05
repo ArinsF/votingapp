@@ -50,6 +50,10 @@ Node pool
 ![image](https://user-images.githubusercontent.com/78741748/216840320-5e18c4fe-1145-4fdc-a08d-52acfbe80ecd.png)
 
 
+.
+
+
+
 
 # 1. Dockeriser cette stack
 
