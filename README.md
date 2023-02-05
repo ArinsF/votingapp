@@ -13,20 +13,28 @@ Le dossier "terraform" contient les fichiers utilisés pour le déploiement du c
     - Le nom du VPC sera comme tel : <Nom_du_projet_Google>-<Votre_prenom>
     - Le sous réseaux dédié dans ce VPC dont la plage d'adressage du sous réseaux est : "10.10.0.0/24"
     - Le nom du sous réseaux sera : arouna-gke-subnetwork
-    
-    ![image](https://user-images.githubusercontent.com/78741748/216840154-b016c767-83cd-4d16-a659-8e853fe0adbf.png)
 
-    
-    
+
 - La création du Pool d'instances Worker Kubernetes:
     - Nombre de noeuds : 2
     - Supprimer le Pool par default
     - Ce pool sera dans le sous réseaux créé dans le VPC
-Type d'instance Google : "e2-standard-2"
+    - Type d'instance Google : "e2-standard-2"
+    
+    ![image](https://user-images.githubusercontent.com/78741748/216840154-b016c767-83cd-4d16-a659-8e853fe0adbf.png)
+
+    
+    ![image](https://user-images.githubusercontent.com/78741748/216840599-34c1f423-8fd2-4581-b142-434d079167cd.png)
+
 
 
 
 # Déploiement des noeuds sur GCP
+
+
+![image](https://user-images.githubusercontent.com/78741748/216840559-4437c119-ac60-4598-bbe8-b41f33c3116c.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/78741748/216820168-e101544b-c4fa-416b-b32b-d8a6180925c1.png)
 
