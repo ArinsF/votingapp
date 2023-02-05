@@ -5,6 +5,27 @@
 ![image](https://user-images.githubusercontent.com/78741748/216839436-3efd8672-ebeb-481e-97c0-522026b6b1e1.png)
 
 
+# Déploiement de GKE à l'aide de terraform
+
+Le dossier "terraform" contient les fichiers utilisés pour le déploiement du cluster avec les caractéristique suivantes:
+
+- création d'un VPC dédié dans le Cloud
+    - Le nom du VPC sera comme tel : <Nom_du_projet_Google>-<Votre_prenom>
+    - Création d'un sous réseaux dédié dans ce VPC dont la plage d'adressage du sous réseaux est : "10.10.0.0/24"
+    - Le nom du sous réseaux sera : <Nom_du_projet_Google>-<Votre_prenom>-subnet
+    
+    ![image](https://user-images.githubusercontent.com/78741748/216840154-b016c767-83cd-4d16-a659-8e853fe0adbf.png)
+
+    
+    
+- La création du Pool d'instances Worker Kubernetes:
+    - Nombre de noeuds : 2
+    - Supprimer le Pool par default
+    - Ce pool sera dans le sous réseaux créé dans le VPC
+Type d'instance Google : "e2-standard-2"
+
+
+
 # Déploiement des noeuds sur GCP
 
 ![image](https://user-images.githubusercontent.com/78741748/216820168-e101544b-c4fa-416b-b32b-d8a6180925c1.png)
