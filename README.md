@@ -44,12 +44,6 @@ Node pool
 ![image](https://user-images.githubusercontent.com/78741748/216840732-618f43ac-2bfe-4ff3-9cdc-e0f04e579267.png)
 
 
-
-
-
-![image](https://user-images.githubusercontent.com/78741748/216820168-e101544b-c4fa-416b-b32b-d8a6180925c1.png)
-
-
 ![image](https://user-images.githubusercontent.com/78741748/216840302-8d825dc9-c8af-4264-8d1f-945fe2e8ed78.png)
 
 
