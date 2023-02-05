@@ -88,6 +88,7 @@ Pour le mot de passe il faut rentrer la commande suivante pour l'obtenir
 Utilisons les identifiants pour la connexion à ArgoCD
 
 login: admin
+
 password:  0XUdqTOqEZErItY0
 
 
