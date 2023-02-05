@@ -1,5 +1,11 @@
 # Infra-cloud-gke
 
+# Déploiement des noeuds sur GCP
+
+![image](https://user-images.githubusercontent.com/78741748/216820168-e101544b-c4fa-416b-b32b-d8a6180925c1.png)
+
+
+
 # 1. Dockeriser cette stack
 
 Téléchargement du répertoire de l'application "voting-app"
@@ -97,8 +103,7 @@ password:  0XUdqTOqEZErItY0
 
 
 
-server name:   pod/argocd-server-6d65f8d8f5-p444l
-                   argocd-server-6d65f8d8f5-p444l
+
 
 
 Installation de ArgoCD CLI sur Windows (Powershell)
