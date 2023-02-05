@@ -135,3 +135,8 @@ argocd login $(kubectl get service argocd-server -n argocd --output=jsonpath='{.
 > argocd repo add git@github.com:ArinsF/Infra-cloud-gke.git --ssh-private-key-path ~/.ssh/id_rsa
 
 
+![image](https://user-images.githubusercontent.com/78741748/216827401-d0d06584-a987-4d06-8fc8-02b8531124dd.png)
+
+
+
+
