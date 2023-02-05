@@ -21,15 +21,25 @@ Le dossier "terraform" contient les fichiers utilisés pour le déploiement du c
     - Ce pool sera dans le sous réseaux créé dans le VPC
     - Type d'instance Google : "e2-standard-2"
     
+
+VPC
+
+
     ![image](https://user-images.githubusercontent.com/78741748/216840154-b016c767-83cd-4d16-a659-8e853fe0adbf.png)
 
-    
+
+
+Cluster
+
+
     ![image](https://user-images.githubusercontent.com/78741748/216840599-34c1f423-8fd2-4581-b142-434d079167cd.png)
+    
+    
+Node pool    
+    
+    ![image](https://user-images.githubusercontent.com/78741748/216840732-618f43ac-2bfe-4ff3-9cdc-e0f04e579267.png)
 
 
-
-
-# Déploiement des noeuds sur GCP
 
 
 ![image](https://user-images.githubusercontent.com/78741748/216840559-4437c119-ac60-4598-bbe8-b41f33c3116c.png)
