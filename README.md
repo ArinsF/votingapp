@@ -1,5 +1,10 @@
 # Infra-cloud-gke
 
+# Soubscription à l'offre GCP de Google
+
+![image](https://user-images.githubusercontent.com/78741748/216839436-3efd8672-ebeb-481e-97c0-522026b6b1e1.png)
+
+
 # Déploiement des noeuds sur GCP
 
 ![image](https://user-images.githubusercontent.com/78741748/216820168-e101544b-c4fa-416b-b32b-d8a6180925c1.png)
