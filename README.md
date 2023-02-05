@@ -59,14 +59,15 @@ Accéder à ArgoCD via l'adresse  https://localhost:8080/
 ![](2023-02-05-00-01-22.png)
 
 
-Le identifiant par défaut sont:
-login: admin
+Le login par défaut est:      "admin"
+
 Pour le mot de passe il faut rentrer la commande suivante pour l'obtenir
 
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
 ==> résultat:  0XUdqTOqEZErItY0
 
+Utilisons les identifiants
 ArgoCD 
 login: admin
 password:  0XUdqTOqEZErItY0
