@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloud-gke-arouna",
+  "private_key_id": "ee710200dc9bfa19dd9dd0b07f5bc1a7c7c883e4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDj8Zb57cQZhllr\nmz8N8BG+u9w9XrlhtlIXh+X9n/75gQoAr6Iflj7J+2mQz7QHrq/K+Awit1buvpvn\nBeNH7ZyOJoD4PWLQ5RWWtlXbeqauMY+mgFT2z6D7dkE/qJKm+1nNS13XRHqEQFms\ngZqnlUxGw1TOVKIs/PQu8sFoCIG2ylAQywv0dDI/OO+LGaSqIMSbdbJpdWXmTCpU\nAcTqH602AflAFyhih2Rjs/8UFut/AaNt/bA4ClFCuNxJdqoOCWXFSobaXlCS8K/h\nzYLkTlaqqNdBsTF4kaP3G6FtJAwwfRAqhVmzPtQZtmo0WUioBKqNBlfmO0ntPKL3\noWgzyh2VAgMBAAECggEAFdgaoFPtVYbe/eVwSv0lLjKhng38VQVcY53l6ALTtARu\nOXebYUyMMt4RlUuaVJwkg552x0LrpVCF70NMryFxvdupw2Banms9wOYzXyenXo0o\nV4v32Hk4U7DW+utENpVi2z4sPYt19EOYdGQtNn8jwqpIb8eDjS0ml3MzHq2mBKa7\nbcMPhbRBg4u1bP5VzdIovRLVQ9QboPgTZI/JwCRcyPTC3T9utooOb1GEWiE3774Z\ncqxP6TSmwVL8ICffFNBbJNBWy2la9bcFEWa3Z1HrUCAFGLxAtU45m601hDZk6hNV\nRO+KzjYFeWaWvHK9YDAB91WKGnAd62REgfGklLH1wQKBgQDyRncOUWF8gbV4+X4i\nAnZe1NY5AnAqDlPU/ekTSf3h5EA1dMYILmYRClLY3pLjSzgK/C6pSgvI8QORvUQC\n8Ny8Z65YG41wQazWjQrFoXpZQe3kZFUtBKDsFieODHg84TF498PRV89zw3GOVJ6P\nOCCOZRm7OWXzTVQJZhmHzSBUYQKBgQDw20j+e3Ek/EGS81y/Hh5r69rzhBvRMGnM\nJjcWwbG0Rr/gcuoVV4pjagMQ0ulsK6JA1n+Ujackb2SQ4AslSEgoGvdmyBp0itIN\nh2UO0o8T7YQtWLAw+2RhodzauRCwNdRzyUtbPqT4N0m5aLAIIRrI4zNqpE4o+M0H\nc6WR7BKVtQKBgECAUiIVuIaVYeMbSWF0ll8Y+w+ifooz1k3Wa78e6+DAC/gvZqm2\n8KWIwhXK7ABnfjwud53KgOi2geTDJuBBkAL494mtjDJeyc01L7D+FLy+uL8dly+t\nE8rG+zDuUPSkX699Bz0sy6ZeWlUyYiRvJPvEHt2homrsI3t9Gz70da8BAoGAVGCN\n5tD55zoUAtYMxMtZXvdmYe8DC7rJJYKxw+AhUAWFDK1VQhrD2WX3IvqwWXvDwLEk\nSreBOWtosLQ8U1hKJvqjdzdcxT0oryKijZnIE/QeXQB34QEAvo9E3r78kK6a+eEn\n7BQ7GNXNlw2MtZxbVMr7ZT2gQAxBT339H+yy6g0CgYEAimlPCrk9ByAdcsoYiMjq\n9zC0mGJR0ag1mcZW7WyMT0gtvW7r7GApjDusQ1Rkkz6MvuVsm+sGHnQ9xn6qUI3Q\nYD4VPqM2+X+/g/jt4uOVkSTOiHL/zlVBTDp09HK9peRm4S0xwde3QneLSPg7ZZ4b\nqDzk19NtFSQJzApAr6I53Qw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraf@cloud-gke-arouna.iam.gserviceaccount.com",
+  "client_id": "102573763624349965990",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraf%40cloud-gke-arouna.iam.gserviceaccount.com"
+}
