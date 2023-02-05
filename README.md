@@ -29,13 +29,16 @@ Après les build, il faut tagger les images et les envoyer dans le docker hub
 > docker push arins007/votingapp:worker
 
 
+
+
 # 3. Vérification de l'accès à l'application depuis l'extérieur
+
 
 Expoer les services vote et result à l'exterieur
 
 
+
 Accès au service vote depuis l'extérieur via l'adresse http://35.245.239.198:5000/
-image.png
 
 
 ![2023-02-04_17h15_26](https://user-images.githubusercontent.com/78741748/216778352-3070dc8e-a71f-4a6d-a708-9432a8c11b20.png)
@@ -64,7 +67,8 @@ Vérification de l'état des pods
 
 
 
-Exposition du port au service et transfert vers l'hôte local
+# Exposition du port au service et transfert vers l'hôte local
+
 > kubectl port-forward svc/argocd-server -n argocd 8080:443
 
 
