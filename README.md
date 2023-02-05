@@ -57,15 +57,15 @@ Création d'un namespace
 kubectl create namespace argocd
 
 Télécharger et appliquer le fichier d'installation d'ArgoCD
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+> kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
 Vérification de l'état des pods
-kubectl get all -n argocd
+> kubectl get all -n argocd
 
 
 
 Exposition du port au service et transfert vers l'hôte local
-kubectl port-forward svc/argocd-server -n argocd 8080:443
+> kubectl port-forward svc/argocd-server -n argocd 8080:443
 
 
 Accéder à ArgoCD via l'adresse  https://localhost:8080/
@@ -77,7 +77,7 @@ Le login par défaut est:      "admin"
 
 Pour le mot de passe il faut rentrer la commande suivante pour l'obtenir
 
-kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+> kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
 ==> résultat:  0XUdqTOqEZErItY0
 
@@ -103,10 +103,10 @@ Installation de ArgoCD CLI sur Windows (Powershell)
 
 Connexion à ArgoCD
 
-kubectl get service argocd-server -n argocd --output=jsonpath='{.status.loadBalancer.ingress[0].ip}'
+> kubectl get service argocd-server -n argocd --output=jsonpath='{.status.loadBalancer.ingress[0].ip}'
 
 
-argocd login $(kubectl get service argocd-server -n argocd --output=jsonpath='{.status.loadBalancer.ingress[0].ip}') --username admin --password $(kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo) --insecure
+> argocd login $(kubectl get service argocd-server -n argocd --output=jsonpath='{.status.loadBalancer.ingress[0].ip}') --username admin --password $(kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo) --insecure
 
 
 ![image](https://user-images.githubusercontent.com/78741748/216818353-15ae0808-9900-42a5-b0ee-c8c7a55e78ae.png)
@@ -114,6 +114,6 @@ argocd login $(kubectl get service argocd-server -n argocd --output=jsonpath='{.
 
 # Ajout du repos Git
 
-argocd repo add git@github.com:ArinsF/Infra-cloud-gke.git --ssh-private-key-path ~/.ssh/id_rsa
+> argocd repo add git@github.com:ArinsF/Infra-cloud-gke.git --ssh-private-key-path ~/.ssh/id_rsa
 
 
