@@ -85,10 +85,11 @@ Pour le mot de passe il faut rentrer la commande suivante pour l'obtenir
 
 ==> résultat:  0XUdqTOqEZErItY0
 
-Utilisons les identifiants
-ArgoCD 
+Utilisons les identifiants pour la connexion à ArgoCD
+
 login: admin
 password:  0XUdqTOqEZErItY0
+
 
 
 ![](2023-02-04-23-57-39.png)
