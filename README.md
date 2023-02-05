@@ -82,6 +82,12 @@ Vérification de l'état des pods
 ![image](https://user-images.githubusercontent.com/78741748/216827930-80156dc3-be11-4a41-8be7-d9bc09366352.png)
 
 
+Dépuis la console GCP
+
+![image](https://user-images.githubusercontent.com/78741748/216829452-454b74e0-bca0-435e-b3c0-a9e40cd42167.png)
+
+
+
 
 # Exposition du port au service et transfert vers l'hôte local
 
