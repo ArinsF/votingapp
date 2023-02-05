@@ -147,7 +147,7 @@ argocd login $(kubectl get service argocd-server -n argocd --output=jsonpath='{.
 ![image](https://user-images.githubusercontent.com/78741748/216827401-d0d06584-a987-4d06-8fc8-02b8531124dd.png)
 
 
-
+Création de l'application sur la console ArgoCD
 
 
 ![image](https://user-images.githubusercontent.com/78741748/216829006-5df9cdf7-366d-4ddd-8c72-3abca54b88da.png)
