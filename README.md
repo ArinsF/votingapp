@@ -13,6 +13,20 @@ kubectl create namespace vote
 
 # 2. Création des fichiers de déploiement et service
 
+Builder les images à partir des codes source contenus dans les différents dossiers
+
+![image](https://user-images.githubusercontent.com/78741748/216818983-4a189463-08a2-4ff2-997c-485678a3a622.png)
+
+Résultat:
+
+![image](https://user-images.githubusercontent.com/78741748/216819235-8bfe2be2-352e-4acd-82e5-a967caba3665.png)
+
+
+Après les build, il faut tagger les images et les envoyer dans le docker hub
+
+> docker tag infra-cloud-gke-worker:latest arins007/votingapp:worker
+
+> docker push arins007/votingapp:worker
 
 
 # 3. Vérification de l'accès à l'application depuis l'extérieur
