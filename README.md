@@ -10,9 +10,9 @@
 Le dossier "terraform" contient les fichiers utilisés pour le déploiement du cluster avec les caractéristique suivantes:
 
 - création d'un VPC dédié dans le Cloud
-    - Le nom du VPC sera comme tel : arouna-gke-vpc
+    - Le nom du VPC sera comme tel : "arouna-gke-vpc"
     - Le sous réseaux dédié dans ce VPC dont la plage d'adressage du sous réseaux est : "10.10.0.0/24"
-    - Le nom du sous réseaux sera : arouna-gke-subnetwork
+    - Le nom du sous réseaux sera : "arouna-gke-subnetwork"
 
 
 - La création du Pool d'instances Worker Kubernetes:
