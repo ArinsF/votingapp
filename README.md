@@ -143,3 +143,14 @@ argocd login $(kubectl get service argocd-server -n argocd --output=jsonpath='{.
 
 
 
+
+![image](https://user-images.githubusercontent.com/78741748/216829006-5df9cdf7-366d-4ddd-8c72-3abca54b88da.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/78741748/216829036-2829625f-01fd-4c1b-838d-29d32c44be4a.png)
+
+
+
+
