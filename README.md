@@ -24,8 +24,7 @@ Le dossier "terraform" contient les fichiers utilisés pour le déploiement du c
 
 VPC
 
-
-    ![image](https://user-images.githubusercontent.com/78741748/216840154-b016c767-83cd-4d16-a659-8e853fe0adbf.png)
+![image](https://user-images.githubusercontent.com/78741748/216840154-b016c767-83cd-4d16-a659-8e853fe0adbf.png)
 
 
 
