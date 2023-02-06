@@ -57,9 +57,10 @@ Node pool
 
 # 1. Dockeriser cette stack
 
-Téléchargement du répertoire de l'application "voting-app"
-/: git clone  https://github.com/...
-fgg
+Téléchargement du code source de l'application "voting-app" à l'adresse suivante:
+[/: git clone  https://github.com/...
+
+fgg](https://github.com/dockersamples/example-voting-app)
 
 Création d'un namespace
 kubectl create namespace vote
