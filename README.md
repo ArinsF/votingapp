@@ -209,4 +209,6 @@ Création de l'application sur la console ArgoCD
 
 
 
+![image](https://user-images.githubusercontent.com/78741748/217101868-97930782-aa98-488b-b6bb-ac54256514df.png)
+
 
